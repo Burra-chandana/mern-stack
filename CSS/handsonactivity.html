@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        .menu-item {
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            color: #fff;
+        }
+        
+        .available {
+            background-color: #28a745; /* Green for available */
+        }
+        
+        .out-of-stock {
+            background-color: #dc3545; /* Red for out of stock */
+            text-decoration: line-through;
+        }
+        
+        .coming-soon {
+            background-color: #ffc107; /* Yellow for coming soon */
+        }
+        
+        .menu-item:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu</h1>
+    <ul class="menu">
+        <li class="menu-item available">Cheeseburger</li>
+        <li class="menu-item out-of-stock">Grilled Salmon</li>
+        <li class="menu-item coming-soon">Veggie Burger</li>
+        <li class="menu-item available">Caesar Salad</li>
+        <li class="menu-item coming-soon">Spaghetti Carbonara</li>
+    </ul>
+</body>
+</html>
